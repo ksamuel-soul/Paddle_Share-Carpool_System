@@ -1,9 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "1223600";
-$password = "231fa04a52";
-$dbname = "1223600";
-
+$servername = "127.0.0.1";
+$username = "root";
+$password = "";
+$dbname = "field_project_batch_17";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 

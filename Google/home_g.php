@@ -5,9 +5,9 @@ require __DIR__ . "/vendor/autoload.php";
 
 $client = new Google\Client;
 
-$client->setClientId("853315883053-h5j92co53aejsrmbk6rv76cs0o0q29iv.apps.googleusercontent.com");
-$client->setClientSecret("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");
-$client->setRedirectUri("https://paddleshare.freevar.com/Google/home_g.php");
+$client->setClientId("131232252264-6c0oivon4om492scv05k8eqjfmhf1020.apps.googleusercontent.com");
+$client->setClientSecret("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");
+$client->setRedirectUri("http://127.0.0.1/car/Google/home_g.php");
 
 $_SESSION['code'] = $_GET['code'];
 
