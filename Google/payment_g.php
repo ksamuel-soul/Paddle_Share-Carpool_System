@@ -650,9 +650,9 @@ include("connection.php");
 
         $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
 
-        $mail->Username   = '231fa04a52konala@gmail.com';                     //SMTP username
+        $mail->Username   = '';                     //SMTP username
 
-        $mail->Password   = 'hfggxhhocrpepkef'; 
+        $mail->Password   = '';               //SMTP password
 
         
 
@@ -666,7 +666,7 @@ include("connection.php");
 
         //Recipients
 
-        $mail->setFrom('231fa04a52konala@gmail.com', 'PaddleShare - @noreply');
+        $mail->setFrom('', '');
 
 
 
